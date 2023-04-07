@@ -1,0 +1,18 @@
+#The Perfect Commit(perfect-commit$ git status)
+-->add the right changes
+-->compose a good commit message
+2.The Perfect Commit Message
+-->subject=concise summary of what happened
+-->Body=more detailed explanation
+#2Branching Startegies
+-->Git allows you to create branches-but it doesn't tell you how yo use them
+-->You need a wriiten best practice of how work is ideally structured in your team
+-->It highly depends on your team/team size,on your project and how you handle releases
+Integrating Changes & Struccturing Releases
+-->Mainline Development
+-->State,Release and Feature Branches
+-->two types of branches-long running also called integration branch  -->main or master (and) 
+short lived branch
+Two example Branching strategies
+1.Github flow-very simple,very lean:only one long running branch("main")+feature branches
+2.GitFlow->more structure,more rules,long running:"main"+"develop",short-lived:features,releases,hotfixes
